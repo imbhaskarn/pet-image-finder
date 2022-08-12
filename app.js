@@ -16,8 +16,8 @@ app.get('/test', (req, res) => {
     })
 })
 
-app.use((err, req, res, next) =>{
-    res.status(500).json({success: false, message: "something wrong happened"})
+app.use((err, req, res, next) => {
+    if (err) { res.status(500).json({ success: false, message: "something wrong happened" }) }
 })
 
 
