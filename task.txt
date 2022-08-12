@@ -1,0 +1,33 @@
+Error:
+Number already exists
+Sighup succe
+
+
+
+2) login
+
+Input:
+Phone
+	Password
+
+Error:
+	If not present “Record not found”
+
+Output: 
+	->200 token
+
+3) random dog image
+	
+	input : breed
+Borzoi
+
+	Output: Image URL
+
+4) history + (Pagination)
+	
+Input:
+	pageSize
+	pageNumber
+
+Ouput:
+	History of random images
